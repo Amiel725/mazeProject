@@ -97,6 +97,7 @@ class MazeGenerator:
 
 
 class MazeSolver:
+    # Backtracking algorithm to find path from start to end
     DIRECTIONS = ['N', 'S', 'E', 'W']
 
     def __init__(self, maze, start, end):
