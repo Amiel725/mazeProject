@@ -53,6 +53,7 @@ class Maze:
 
 
 class MazeGenerator:
+    # Stack-based DFS mouse that eats through walls
     def __init__(self, maze):
         self.maze    = maze
         self.visited = [[False] * maze.C for _ in range(maze.R)]
