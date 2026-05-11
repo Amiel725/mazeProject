@@ -13,3 +13,6 @@ northWall[R][C] – this array stores the wall above each cell; if the value is 
 eastWall[R][C] – this array stores the wall on the right of each cell; follows the same principle as above.
 
 Row number 0 of northWall is a phantom row, which forms the bottom border of the maze. Column number 0 of eastWall is a phantom column, which forms the left border of the maze.
+Amiel Abebe
+UGR/5619/16
+Section:1
